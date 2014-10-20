@@ -1,1 +1,6 @@
-["redis-brain.coffee", "shipit.coffee", "birthday.coffee", "ackbar.coffee"]
+[
+"redis-brain.coffee", 
+"shipit.coffee",
+"birthday.coffee",
+"ackbar.coffee",
+"beerme.coffee"]
