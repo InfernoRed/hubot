@@ -14,5 +14,5 @@
 #  CuriousCurmudgeon
 
 module.exports = (robot) ->
-  robot.hear /O\-H\b, (msg) ->
+  robot.hear /O-H\b, (msg) ->
     msg.send 'I-O'
