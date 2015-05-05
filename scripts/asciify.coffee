@@ -17,4 +17,4 @@ ascii = require 'asciify'
 
 module.exports = (robot) ->
   robot.hear /asciify (.*)/i, (msg) ->
-      ascii msg.match[1], (err, rsp) -> msg.send rsp
+      ascii msg.match[1], (err, rsp) -> msg.send '```\n' + rsp + '\n```'
